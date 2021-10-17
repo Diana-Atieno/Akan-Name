@@ -13,16 +13,15 @@ console.log("date");
 
 function getDate(){
     let date = document.getElementById("year").value
-    console.log("date");
-
-function getDate(){
-        
+    console.log("date");       
     
 
 }
 
 
 // get gender input //
+var genders = document.getElementsByName("gender");
+console.log("gender");
 
 //applying the provided formula //
 

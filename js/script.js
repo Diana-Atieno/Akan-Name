@@ -20,8 +20,15 @@ function getDate(){
 
 
 // get gender input //
+function validate() {
 var genders = document.getElementsByName("gender");
 console.log("gender");
+if( document.year.value == "" || document.year.value.length !=4 || document.year.value >2100 || document.year.value <=1900) {
+    alert( "Enter a valid year. ex 2021" );
+    document.year.focus() ;
+    return false;
+
+}
 
 //applying the provided formula //
 

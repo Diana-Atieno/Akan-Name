@@ -8,16 +8,23 @@
         <div id="heading"> 
             <h1>Akan Names</h1>            
         </div>
-        <form>
+            <form name="formName">
+        <div>
         <!---Creating a date input and submit button-->
-        <input type="date" id="year" name="birthday"/>
-        <button class="btn-sub" onclick="getDate()">Submit</button>     
+        <input type="date" id="year" name="birthday"/>       
+        </div>             
      
-        
-        <!---Creating gender input--> <br>
+        <div>
+            <!---Creating gender input--> <br>
         <h3>Gender</h3>
         <input type="radio" name="gender" value="male"> Male<br>
         <input type="radio" name="gender" value="female"> Female<br>
+        </div>
+        <div class="btn-submit">
+            <button onclick="getDate()">Submit</button> 
+            
+        </div>
+        
         </form>
         
         

@@ -12,8 +12,8 @@ Javascript
 Clone this repository to a location in your file system: https://github.com/Diana-Atieno/Akan-Name.git
 
 Open terminal command line.
-Navigate to the root folder of the application: cd portfolio-landing.
-
+Navigate to the root folder of the application: cd akan-name.
+open index.html on your browser
 ## Development
 Want to contribute? Great!
 

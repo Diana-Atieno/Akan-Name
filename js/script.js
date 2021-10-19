@@ -1,4 +1,7 @@
 // getting form by ID and adding and event listener
-let akanForm = document.getElementById("akanForm");
-akanForm.addEventListener("submit", (e) => {
+let formName = document.getElementById("formName");
+formName.addEventListener("submit", (e) => {
     e.preventDefault();
+// getting gender by Id
+gender = document.getElementById("gender").value
+dateOfBirth = document.getElementById("year").value

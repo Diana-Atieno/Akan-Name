@@ -1,3 +1,24 @@
-body{
+.container {
+    
+    text-align: center;
+    margin-left: 300px;
+}
+.btn {
+    padding-top: 10px;
+}
+#formName {
     background-color: blue;
+    height: 500px;
+}
+[type="date"] {
+    width: 50%;
+    padding: 12px;  
+    border-radius: 4px;
+}
+#gender {
+    width: 50%;
+    padding: 12px;  
+    border-radius: 4px;
+}
+
 }

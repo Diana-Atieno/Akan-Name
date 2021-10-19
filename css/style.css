@@ -20,11 +20,13 @@
     width: 50%;
     padding: 12px;  
     border-radius: 4px;
+    font-family: cursive;
 }
 label {
     font-size:50px;
     padding-top: 5px;
     font-family: cursive;
+   
 }
 [type="submit"] {
     width: 50%;

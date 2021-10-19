@@ -19,3 +19,6 @@ let DayOfMonth = DayOfMonth.getDate();
 
 //formula for DayOfWeek
 dayOfTheWeek = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
+
+// converting the day of the week to integer
+dayOfTheWeek = parseInt(dayOfTheWeek);

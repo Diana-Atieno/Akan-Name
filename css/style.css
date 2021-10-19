@@ -14,6 +14,7 @@
     width: 50%;
     padding: 12px;  
     border-radius: 4px;
+    font-family: cursive;
 }
 #gender {
     width: 50%;
@@ -29,9 +30,22 @@ label {
     width: 50%;
     padding: 12px;  
     border-radius: 4px; 
+    font-family: cursive;
    
 }
 .submit-btn {
-    padding-top: 10px;
-
+    padding-top: 30px;
+}
+.selectbox {
+    font-family: cursive;
+}
+.box {
+    padding-top: 20px;
+    font-family: cursive;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+h1 {
+    font-family: cursive;
 }

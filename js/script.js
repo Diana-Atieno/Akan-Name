@@ -4,20 +4,20 @@ formName.addEventListener("submit", (e) => {
     e.preventDefault();
 // getting gender by Id
     gender = document.getElementById("gender").value
-    dateOfBirth = document.getElementById("year").value
+    birthDate = document.getElementById("year").value
 
-    dateOfBirth = new Date(dateOfBirth);
+    birthDate = new Date(birthDate);
 
-//Declaring variables and changing yearOfBirth to string
-let yearOfBirth = dateOfBirth.getFullYear();
-let birthMonth = dateOfBirth.getMonth() + 1;
-let dayOfBirth = dateOfBirth.getDate();
+//Declaring variables and changing birthYear to string
+    let birthYear = birthDate.getFullYear();
+    let birthMonth = birthDate.getMonth() + 1;
+    let birthDay = birthDate.getDate();
 
 
-CC = yearOfBirth.toString().substr(0, 2);
-YY = yearOfBirth.toString().substr(2, 2);
-MM = birthMonth
-DD = dayOfBirth
+    CC = birthYear.toString().substr(0, 2);
+    YY = birthYear.toString().substr(2, 2);
+    MM = birthMonth
+    DD = birthDay
 
 
 
@@ -36,8 +36,8 @@ maleAkanNames =  ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Frida
 
 let akanName;
 
-    femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
 
 

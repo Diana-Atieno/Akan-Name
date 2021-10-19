@@ -22,3 +22,10 @@ dayOfTheWeek = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)
 
 // converting the day of the week to integer
 dayOfTheWeek = parseInt(dayOfTheWeek);
+
+//declaring akan names and initializing string variables
+
+let akanName;
+
+    femaleAkanNames = ["Ama", "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua"];
+    maleAkanNames = ["Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi"];
